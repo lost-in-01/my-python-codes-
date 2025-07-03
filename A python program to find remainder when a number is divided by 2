@@ -1,0 +1,3 @@
+a=input("Enter a number you want to divide by 2: ")
+
+print("The remainder is: ", int(a)%2)
