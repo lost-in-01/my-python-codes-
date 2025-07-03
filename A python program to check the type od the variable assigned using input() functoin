@@ -1,0 +1,22 @@
+a = input("Type anything to see which type of variable it is: ")
+
+# Convert to appropriate type
+if a.replace('-', '').replace('.', '').isdigit():
+    if '.' in a:
+        a = float(a)
+    else:
+        a = int(a)
+
+b = type(a)
+if (b is int) :
+  print("Type of variable is integer")
+elif (b is str) :
+  print("Type of variable is string")
+elif (b is float) :
+  print("Type of variable is float")
+elif (b is bool) :
+  print("Type of variable is boolean")
+elif (b is None) :
+  print("Type of variable is NoneType")
+
+print("The type of variable is:", b)
