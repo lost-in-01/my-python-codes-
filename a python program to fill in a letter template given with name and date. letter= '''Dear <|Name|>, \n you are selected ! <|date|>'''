@@ -1,4 +1,4 @@
-AME=input("What is your name sir?")
+NAME=input("What is your name sir?")
 DATE=input("What's today's date (e.g., December 15, 2024)? ")
 
 letter='''dear <|NAME|>, 
