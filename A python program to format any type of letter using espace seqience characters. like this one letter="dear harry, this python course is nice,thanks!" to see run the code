@@ -1,0 +1,3 @@
+a=input("Enter a letter or something it will change the line after any , (comma) : ")
+a.replace(",",", \n")
+print(a.replace(",",", \n"))
