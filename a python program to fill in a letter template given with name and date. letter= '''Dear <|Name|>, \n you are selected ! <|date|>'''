@@ -1,0 +1,9 @@
+AME=input("What is your name sir?")
+DATE=input("What's today's date (e.g., December 15, 2024)? ")
+
+letter='''dear <|NAME|>, 
+        you are selected!
+        <|DATE|>'''
+
+filled_letter = letter.replace('<|NAME|>', NAME).replace('<|DATE|>', DATE)
+print(filled_letter)
