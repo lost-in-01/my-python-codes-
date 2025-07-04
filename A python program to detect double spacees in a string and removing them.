@@ -1,0 +1,9 @@
+a=input("Enter a string if there will be any double spacees in it then it will be detected: ")
+
+
+print("There is",a.count("  "), "double spaces in the string")
+b=input("if you want to replace the double spaces with single spaces then type yes and than enter: ")
+if(b == "yes"):
+  print(a.replace("  "," "))
+else:
+  print("no changes made ")
