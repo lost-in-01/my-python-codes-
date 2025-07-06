@@ -1,0 +1,8 @@
+a = input("Enter the number if there will be any zeros it will tell you(in a tuple): ")
+b = [int(c) for c in a.split()]
+#it changes the string into a list of integers
+d = tuple(b)
+#it changes the list into a tuple
+d = d.count(0)
+#it counts the number of zeros in the tuple
+print (d)
