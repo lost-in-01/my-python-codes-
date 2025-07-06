@@ -1,0 +1,6 @@
+num = input("Enter 4 number you want to sum: ") 
+a = [int(b) for b in num.split()]
+#it is making the input into a list and then it is converting the list into integers and below it is adding the integer
+total =sum(a)
+print("the number you entered is: ", a)
+print("the sum of the number is: ",total)
