@@ -1,0 +1,4 @@
+marks = input ("enter the marks of seven students: ")
+marks = marks.split(" ")
+marks.sort() 
+print(marks)
