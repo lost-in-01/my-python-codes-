@@ -1,0 +1,3 @@
+fruit = input ("enter the names of seven fruits(separated by spaces):")
+fruit = [fruit.strip() for fruit in fruit.split()]
+print("list of your seven fruits: ",fruit)
