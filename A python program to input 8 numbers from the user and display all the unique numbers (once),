@@ -1,0 +1,8 @@
+user = input ("Enter the numbers the output will show unique numbers: ")
+
+int = [int(i) for i in user.split()]
+unique_numbers = set(int)
+
+print("user input: ", user)
+print("all numbers: ", int)
+print("unique numbers: " , unique_numbers)
