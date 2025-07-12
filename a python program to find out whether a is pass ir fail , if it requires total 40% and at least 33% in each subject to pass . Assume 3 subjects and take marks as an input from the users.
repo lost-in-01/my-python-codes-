@@ -1,0 +1,22 @@
+computer = int(input("Enter the marks of computer: "))
+english = int(input("Enter the marks of english: "))
+maths = int(input("Enter the marks of maths: "))
+
+def calculate_percentage(computer, english , maths):
+    total_marks = computer + english + maths
+    percentage = (total_marks / 300) * 100
+    return percentage
+
+
+  # Call the function and store the result
+result = calculate_percentage(computer, english, maths)
+
+print(f"Total marks: {computer + english + maths}/300")
+print(f"Percentage: {result:.2f}%")
+
+if result >= 33 and result <= 100:
+      print("Pass")
+elif result < 33:
+      print("Fail")
+else:
+      print("Invalid marks entered")
