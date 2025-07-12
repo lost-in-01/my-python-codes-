@@ -1,0 +1,8 @@
+user = input("Enter the four numbers that you want to find out which one is greatest: ")
+numbers = [int(num) for num in user.split()]
+
+if numbers:
+  greatest = max(numbers)
+  print(f"The greatest number is: {greatest}")
+else:
+  print("No numbers were entered.")
