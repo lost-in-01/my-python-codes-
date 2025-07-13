@@ -1,0 +1,11 @@
+list = input("Enter the list in which we are going to find the name: ")
+new_list = list.replace(","," ")
+name = input("Enter the name that you want to find: ")
+
+
+the_name = list.find(name)
+print(the_name)
+if (the_name == -1):
+    print("The name is not in the list")
+else: 
+    print("The name is in the list")
