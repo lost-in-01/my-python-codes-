@@ -1,0 +1,7 @@
+username = input("Enter your name without spaces with underscores: ").lower()
+a = len(username)
+print(a)
+if a < 10:
+    print("Your username is too short add more characters")  
+else: 
+    print("Your username is long enough")
