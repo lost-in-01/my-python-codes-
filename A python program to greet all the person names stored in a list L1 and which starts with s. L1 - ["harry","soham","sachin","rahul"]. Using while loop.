@@ -1,0 +1,7 @@
+# names=["harsh", "sujal" , "sonu" , "amrit"]
+names=["harry","soham","sachin","rahul"]
+index = 0
+while index < len(names):
+  print(f"Hello, {names[index]}! Nice to meet you.")
+  index = index + 1 # or index += 1
+
