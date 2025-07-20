@@ -1,0 +1,5 @@
+# a =["harsh", "sujal" , "sonu" , "amrit"]
+a=["harry","soham","sachin","rahul"]
+
+for name in a:
+   print(f"Hello, {name}! Nice to meet you.")
