@@ -1,0 +1,6 @@
+a = int(input("Enter the number: "))
+i = 2
+if (a<=1 or a % i == 0):
+  print ("not a prime")
+elif (a % i != 0):
+  print("a prime")
